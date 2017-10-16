@@ -11,9 +11,9 @@ private:
     static const char ETX = 0x3;
 
     char data;
-    int sequenceNumber;
+    unsigned int sequenceNumber;
 public:
-    PacketFrame(int sequenceNumber, char data) {
+    PacketFrame(unsigned int sequenceNumber, char data) {
         this->sequenceNumber = sequenceNumber;
         this->data = data;
     }
