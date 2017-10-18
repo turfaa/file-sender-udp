@@ -30,7 +30,7 @@ void logGetData(ostream &stream, int sequence_number) {
 	stream << "Get " << sequence_number << endl;
 }
 
-int main() {
- 	logSendAck(cout, 150);
-	return 0;
+void windowMovement(ostream &stream, string left, string right) {
+	printTime();
+	stream << "Window move to the " << left << endl;
 }

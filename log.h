@@ -18,4 +18,6 @@ void logSendData(ostream &stream, int sequence_number);
 
 void logGetData(ostream &stream, int sequence_number);
 
+void windowMovement(ostream &stream, string left, string right);
+
 #endif
