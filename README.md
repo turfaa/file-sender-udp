@@ -65,3 +65,5 @@
       Mengandung *value* data dari opsi jika *value* tersebut valid.
     * *Padding*
       Memastikan TCP *header* berakhir dan data berukuran 32 bit.
+
+![alt text](https://fthmb.tqn.com/FHdeC8UhfnoaTE8jvZ4KlobWu1E=/1235x693/filters:fill(auto,1)/tcp-header-56a1adc85f9b58b7d0c1a24f.png)
